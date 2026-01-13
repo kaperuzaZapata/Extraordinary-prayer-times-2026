@@ -12,10 +12,16 @@ DTSTAMP:20260113T000000Z
 DTSTART;TZID=Asia/Tbilisi:20260315T170000
 DTEND;TZID=Asia/Tbilisi:20260315T190000
 SUMMARY:ლოცვის და თაყვანისცემის დრო / Prayer and worship time
-DESCRIPTION:It will happen in the window of the night of prayer during Ramadan/ეს მოხდება ლოცვის ღამის ფანჯარაში\, რამადანის პერიოდში.
-LOCATION:To be decided
+DESCRIPTION:It will happen in the window of the night of prayer during Ramadan / ეს მოხდება ლოცვის ღამის ფანჯარაში, რამადანის პერიოდში.
+LOCATION:Telavi, Kakheti
+ORGANIZER;CN=Prayer for the Caucasus:mailto:info@caucasus-prayer.org
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder – Prayer and worship time
+END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
@@ -24,10 +30,16 @@ DTSTAMP:20260113T000000Z
 DTSTART;TZID=Asia/Tbilisi:20260401T170000
 DTEND;TZID=Asia/Tbilisi:20260401T190000
 SUMMARY:ლოცვის და თაყვანისცემის დრო / Prayer and worship time
-DESCRIPTION:This will be the first day of the Hebrew Passover/ ეს იქნება ებრაული პასექის პირველი დღე
-LOCATION:To be decided
+DESCRIPTION:This will be the first day of the Hebrew Passover / ეს იქნება ებრაული პასექის პირველი დღე.
+LOCATION:Telavi, Kakheti
+ORGANIZER;CN=Prayer for the Caucasus:mailto:info@caucasus-prayer.org
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder – Prayer and worship time
+END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
@@ -37,9 +49,15 @@ DTSTART;TZID=Asia/Tbilisi:20260906T170000
 DTEND;TZID=Asia/Tbilisi:20260912T180000
 SUMMARY:ლოცვის კვირეული / Prayer Week
 DESCRIPTION:Week of focused intercession for the Caucasus. Special creative worship on Sept 11 for Rosh Hashanah.
-LOCATION:To be decided
+LOCATION:Telavi, Kakheti
+ORGANIZER;CN=Prayer for the Caucasus:mailto:info@caucasus-prayer.org
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder – Prayer Week
+END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
@@ -49,9 +67,15 @@ DTSTART;TZID=Asia/Tbilisi:20260911T170000
 DTEND;TZID=Asia/Tbilisi:20260911T190000
 SUMMARY:Special Rosh Hashanah Prayer / განსაკუთრებული ლოცვა როშ ჰაშანაზე
 DESCRIPTION:Creative prayer and worship celebrating Rosh Hashanah (Hebrew New Year) / შემოქმედებითი ლოცვა და თაყვანისცემა ებრაული ახალი წლის აღსანიშნავად – როშ ჰაშანა.
-LOCATION:To be decided
+LOCATION:Telavi, Kakheti
+ORGANIZER;CN=Prayer for the Caucasus:mailto:info@caucasus-prayer.org
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder – Special Rosh Hashanah Prayer
+END:VALARM
 END:VEVENT
 
 END:VCALENDAR
